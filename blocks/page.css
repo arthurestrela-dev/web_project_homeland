@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .page {
   min-width: 320px;
   background-color: #2a2c2f;
@@ -13,6 +19,12 @@
 
 @media screen and (max-width: 1024px) {
   .content {
-    padding: 0 24px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content {
+    max-width: 320px;
   }
 }
