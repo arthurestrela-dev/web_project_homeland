@@ -1,0 +1,44 @@
+.intro {
+  max-width: 830px;
+  margin: 92px 148px 0 0;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-size: 49px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.intro__text {
+  max-width: 738px;
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 1.42;
+}
+
+.intro__author {
+  margin: 0 0 32px;
+  text-align: right;
+  font-size: 24px;
+  line-height: 1.42;
+}
+
+.intro__description {
+  max-width: 722px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+    margin-top: 90px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 1.08;
+  }
+}
