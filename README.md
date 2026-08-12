@@ -33,4 +33,4 @@ Este projeto foi desenvolvido utilizando:
 
 Link para o projeto publicado no GitHub Pages:
 
-(será adicionado após a publicação do projeto)
+https://arthurestrela-dev.github.io/web_project_homeland/
